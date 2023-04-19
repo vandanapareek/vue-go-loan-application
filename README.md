@@ -23,10 +23,12 @@ Once logged in, he will be redirected to the loan calculator page, where he can 
 ### API
 The API exposes 4 endpoints : login, providers, balance-sheet, calculate-loan
 
+Right now, balance-sheet is fetched from a json file as accounting provider's details were not given. (For now, I commented the code for fetching balance sheet from accounting provider)
+
 There are a few dummy balance sheets saved which is mapped by business name. Please use these business name while generating blance sheet: 
 | **Business Name** |**Business Name**  |
 |-------------------|-------------------|
-| business1         | business1.json    |
+| business1         | business1.json(api/balanceSheet/business1.json)    |
 | business2         | business1.json    |
 | business3         | business1.json    | 
 
