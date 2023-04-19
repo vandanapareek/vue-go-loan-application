@@ -23,7 +23,7 @@ Once logged in, he will be redirected to the loan calculator page, where he can 
 ### API
 The API exposes 4 endpoints : login, providers, balance-sheet, calculate-loan
 
-Right now, balance-sheet is fetched from a json file as accounting provider's details were not given. (For now, I commented the code for fetching balance sheet from accounting provider in [xero](api/internal/service/accounting/xero/xero.go) and [myob](api/internal/service/accounting/myob/myob.go))
+Right now, balance-sheet is fetched from a json file as accounting provider's details were not given. (For now, I commented the code for fetching balance sheet from accounting provider in [xero service](api/internal/service/accounting/xero/xero.go) and [myob service](api/internal/service/accounting/myob/myob.go))
 
 There are a few dummy balance sheets saved which is mapped by business name. Please use these business name while generating blance sheet: 
 
