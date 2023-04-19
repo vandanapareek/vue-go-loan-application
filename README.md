@@ -23,14 +23,18 @@ Once logged in, he will be redirected to the loan calculator page, where he can 
 ### API
 The API exposes 4 endpoints : login, providers, balance-sheet, calculate-loan
 
-Right now, balance-sheet is fetched from a json file as accounting provider's details were not given. (For now, I commented the code for fetching balance sheet from accounting provider)
+Right now, balance-sheet is fetched from a json file as accounting provider's details were not given. (For now, I commented the code for fetching balance sheet from accounting provider in [xero](api/internal/service/accounting/xero/xero.go) and [myob](api/internal/service/accounting/myob/myob.go))
 
 There are a few dummy balance sheets saved which is mapped by business name. Please use these business name while generating blance sheet: 
-| **Business Name** |**Business Name**  |
-|-------------------|-------------------|
+
+| **Business Name** |**Business Name**                                     |
+|-------------------|------------------------------------------------------|
 | business1         | [business1.json](api/balanceSheet/business1.json)    |
-| business2         | business1.json    |
-| business3         | business1.json    | 
+| business2         | [business2.json](api/balanceSheet/business2.json)    |
+| business3         | [business3.json](api/balanceSheet/business3.json)    | 
+
+
+Details for decision engine API was also not given so I have commented the API code in [decision service](api/internal/service/decision/decision.go).
 
 ### Steps to run the app
 
