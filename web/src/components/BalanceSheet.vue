@@ -2,10 +2,8 @@
   <v-sheet class="pa-12" rounded>
     <v-card>
       <v-data-table
-      :fixedFooter="false"
       :headers="headers"
       :items="balanceSheet.sheet"
-      class="elevation-1"
      ></v-data-table>
 
      <v-card-text>
