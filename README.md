@@ -9,7 +9,7 @@ This is a 3-tier application consisting of:
 - A Postgres database. The relevant folder is [db] folder.
 
 ### Frontend
-Once a user navigates to the frontend (by default found at http://localhost:8080), if he is not logged in, he will be redirected to a login page where she will have to provide her username and password. There are a few test users registered already:
+Once a user navigates to the frontend (by default found at http://localhost:8080), if he is not logged in, he will be redirected to a login page where he will have to provide his username and password. There are a few test users registered already:
 
 | **Username** | **Password** |
 |--------------|--------------|
