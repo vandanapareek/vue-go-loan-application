@@ -27,7 +27,7 @@ Right now, balance-sheet is fetched from a json file as accounting provider's de
 
 There are a few dummy balance sheets saved which is mapped by business name. Please use these business name while generating blance sheet: 
 
-| **Business Name** |**Business Name**                                     |
+| **Business Name** |**Balance Sheet Name**                                     |
 |-------------------|------------------------------------------------------|
 | business1         | [business1.json](api/balanceSheet/business1.json)    |
 | business2         | [business2.json](api/balanceSheet/business2.json)    |
